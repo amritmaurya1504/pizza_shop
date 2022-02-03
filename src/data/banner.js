@@ -1,0 +1,57 @@
+import img1 from "../assets/img/banner/3.png"
+const bannerData = [
+    {
+                    "id": 1,
+                    "title": "Truly Italian Pizza",
+                    "subtitle": "Pepperoni Pizza With Thin Crust",
+                    "shortdesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "calories": 480,
+                    "mozarella": 120,
+                    "price": 10.99,
+                    "discount":"",
+                    "img": {img1},
+                    "category": "Specialty",
+                    "offer": false
+                },
+                {
+                    "id": 2,
+                    "title": "Wilderness Bless",
+                    "subtitle": "Ham & Cheese With Vegetables",
+                    "shortdesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "calories": 800,
+                    "mozarella": 300,
+                    "price": 17.99,
+                    "discount":"",
+                    "img": "assets/img/prods/5.png",
+                    "category": "Ham & Cheese",
+                    "offer": false
+                },
+                {
+                    "id": 3,
+                    "title": "Green Delight",
+                    "subtitle": "Vegetarian Pizza With Thin Crust",
+                    "shortdesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "calories": 230,
+                    "mozarella": 100,
+                    "price": 9.99,
+                    "discount":40,
+                    "img": "assets/img/prods/2.png",
+                    "category": "Vegetarian",
+                    "offer": true
+                },
+                {
+                    "id": 4,
+                    "title": "Feeling Cheesy",
+                    "subtitle": "Pepperoni Pizza With Four Cheeses",
+                    "shortdesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "calories": 650,
+                    "mozarella": 200,
+                    "price": 12.99,
+                    "discount":"",
+                    "img": "assets/img/prods/1.png",
+                    "category": "Pepperoni",
+                    "offer": false
+                }
+]
+
+export default bannerData;
